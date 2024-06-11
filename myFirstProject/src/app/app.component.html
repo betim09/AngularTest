@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.component.css">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <script src="app.component.ts"></script>
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="#dino-tickets">Dino Tickets</a>
+            <a href="#alle-orte">Alle Orte</a>
+            <a href="#events">Events</a>
+        </div>
+        <div class="navbar-center">
+            <p>Suche nach Events und Künstlern</p>
+        </div>
+        <div class="navbar-right">
+            <a href="#cart"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#profile"><i class="fa fa-user"></i></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="tile">
+            <img src="RockAmRing.jpeg" alt="RockAmRing">
+            <button (click)="buchenKlicken()">Buchen</button>
+            <button>Infos</button>
+        </div>
+        <div class="tile">
+            <img src="Gluecksgefuehle.jpeg" alt="Gluecksgefuehle">
+            <button>Buchen</button>
+            <button>Infos</button>
+        </div>
+        <div class="tile">
+            <img src="Southside.jpeg" alt="Southside">
+            <button>Buchen</button>
+            <button>Infos</button>
+        </div>
+        <div class="tile">
+            <img src="Parokkaville.webp" alt="Parokkaville">
+            <button>Buchen</button>
+            <button>Infos</button>
+        </div>
+    </div>
+    
+    <div class="infoContainer">
+        <div class="full-width-container">
+            <div class="full-width-tile">
+                <img src="Gluecksgefuehle.jpeg" alt="Gluecksgefuehle" class="left-image">
+                <div class="text-content">
+                    <u>Glücksgefühle </u>
+                    <p>Das Glückgefühle Festival ist mit 130.000 Besuchern das größte Festival Deutschlands und verspricht ein abwechslungsreiche Line-Up mit absoluten Top-Acts. Das Rahmenprogramm setzt neue Maßstäbe. Initiator des Glücksgefühle Festivals ist Lukas Podolski. Was er anpackt wird ein Erfolg und unterscheidet sich von allem, wie man es bisher kennt. Das gilt auch für das Glücksgefühle Festival: Eine neue Art des Festival Feelings.</p>
+                </div>
+            </div>
+            <div class="full-width-tile">
+                <div class="text-content">
+                    <u>Rock am Ring </u>
+                    <p>Das Rock am Ring Festival ist eins der bekanntesten Festivals Deutschlands. Wenn man an Festivals denkt, kommt einem unweigerlich das Rock am Ring in den Sinn. Das Festival gehört mit seinen fast 100.000 Besuchern zu den größten Festivals Deutschlands.</p>
+                </div>
+                <img src="RockAmRing.jpeg" alt="RockAmRing" class="right-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

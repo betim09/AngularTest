@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf4fc; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ecf4fc; 
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 2px solid black; 
+    
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-left a {
+    color: rgb(105, 105, 105); 
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.navbar-left a:hover {
+    background-color: #575757;
+}
+
+.navbar-center {
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(105, 105, 105); 
+    font-size: 0.8em; /* Kleinere Schriftgröße */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right a {
+    color: rgb(181, 181, 181); 
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5px; /* Geringerer Abstand zwischen den Icons */
+}
+
+.navbar-right a:hover {
+    background-color: #575757;
+}
+
+.navbar-right i {
+    font-size: 1.2em;
+}
+
+
+.navbar-right {
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Abstand der Titel */
+    align-items: flex-start;
+    padding: 20px;
+    width: 80%; 
+    margin: 0 auto; 
+
+}
+
+.tile {
+    background-color: rgb(181, 181, 181); 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 20%; /* Pro Titel 20% */
+    box-sizing: border-box;
+    border-radius: 10px; /* Ecken abgerundet */
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+.tile button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 8px; 
+}
+
+.tile button:hover {
+    background-color: #0056b3;
+}
+
+.infoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.full-width-container {
+    width: 80%; 
+    box-sizing: border-box;
+}
+
+.full-width-tile {
+    display: flex;
+    align-items: center;
+    background-color: rgb(181, 181, 181); 
+    margin: 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%; 
+    border-radius: 8px; 
+}
+
+.full-width-tile img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.full-width-tile .text-content {
+    flex-grow: 1;
+    padding: 10px;
+    color: black;
+}
+
+.left-image {
+    margin-right: 20px;
+}
+
+.right-image {
+    margin-left: 20px;
+}
